@@ -2,6 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import Markdown from '../components/Markdown.astro';
 
+.space { margin-top: 4000px; }
+
 const explainer = `
 
 Haiiiiii
@@ -34,14 +36,17 @@ Click on Password Paranoia up there at the top for my CTC project site.
 
 
 
+Scroll down for a cat :3
 
 
+`;
+---
 
-
-
-
-
-
+<Layout title="yk, the place.">
+    <h1 class="mb-10">A home page ig</h1>
+    <Markdown content={explainer} class="mb-10 text-lg" />
+    <div class="space"></div>
+    <p>
 ⠀⢀⠤⠒⠈⠉⠀⠀⠀⠀⠀⠀⠀⠈⠉⠁⠆⠤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⡔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⢕⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⢔⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -83,10 +88,5 @@ Click on Password Paranoia up there at the top for my CTC project site.
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⢽⢦⣄⡀⠀⠀⠠⠄⠀⠉⠛⠛⠓⠾⠦⣤⣦⣄⣡⣈⣁⣂⣄⣑⣎⣴⣙⣷⣬⣴⣿⠷⠾⠶⠚⠛⠋⠉⠁⠀⠀⣀⣤⢾⠍⠋⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠝⣲⡦⢤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠁⠉⠉⠉⠈⠉⠈⠀⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣴⣶⠻⠟⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⠚⠉⢻⢻⣖⣲⡶⠤⠤⣤⢤⡤⣤⣀⣤⣀⣤⣀⣤⣠⣄⣤⣀⣤⡤⢶⢶⣞⣯⣭⠗⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-`;
----
-
-<Layout title="yk, the place.">
-    <h1 class="mb-10">A home page ig</h1>
-    <Markdown content={explainer} class="mb-10 text-lg" />
+</p>
 </Layout>
